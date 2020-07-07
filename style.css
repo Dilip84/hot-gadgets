@@ -1,0 +1,73 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    align-items: center;
+}    
+    /* NAVBAR */
+    .container-1{
+        margin-bottom: 100px;
+       
+    }
+      .orange-bg{
+          background-color: #fceae8;
+      }
+   /* Carousel Start */
+   .carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color: #FF136F;
+}
+.buy-now-button{
+    background-image: linear-gradient(to bottom, #5047d1 0%, #5047d1 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.carousel{
+    padding: 40px 60px;
+    border-radius: 20px;
+}
+.carousel-indicators .active{
+    background-color: yellow;
+    width: 35px;
+}
+.carousel-indicators li {
+    height: 8px;
+    width: 10px;
+    background-color:  yellow;
+    border-radius: 10px;
+
+    border: 0;
+  
+    opacity: 1;
+}
+   /* Carousel End */
+
+
+   /* Categories Start */
+.orange-line{
+    width: 100px;
+    height: 4px;
+    background-color: orange;
+    align-content: center;
+}
+.underline{
+    width: 130px;
+    background-image: linear-gradient(to right, #f18443, #f18543);
+    height: 8px !important;
+    border-radius: 80px;
+}
+.cate-text{
+margin: 20px;
+}
+.bag, .perfume, .shoe{
+    margin: 0px;
+    padding: 20px 20px;
+    background-color: white;
+    border: 20px solid white;
+}
+
+  /* Ctegories End */
